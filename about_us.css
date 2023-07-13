@@ -1,0 +1,63 @@
+body{
+    background-image: url(about_us\ image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+ul{
+    background-color: grey;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+li a:hover{
+    background-color: black;
+}
+
+.A{
+    float: right;
+    width: 60%;
+    font-size: 28px;
+    padding-top: 100px;
+
+}
+
+.U{
+    float: left;
+    width: 40%;
+    padding-top: 123px;
+    padding-left: 60px;
+    box-sizing: border-box;
+} 

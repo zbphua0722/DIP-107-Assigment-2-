@@ -1,0 +1,49 @@
+body{
+    background-image: url(menu\ image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+ul{
+    background-color: grey;
+    list-style-type: none;
+    margin: 0;
+    padding : 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: right;
+    padding-right: 5px;
+}
+
+li a{
+    text-decoration: none;
+    padding: 16px;
+    display: block;
+    color: white;
+}
+
+li a:hover{
+    background-color: black;
+}
